@@ -1,0 +1,15 @@
+[
+  "tests/test_faq.py::TestFAQ::test_faq_questions[0]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[1]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[2]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[3]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[4]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[5]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[6]",
+  "tests/test_faq.py::TestFAQ::test_faq_questions[7]",
+  "tests/test_order.py::TestOrderScooter::test_order_scooter[order_data0-top]",
+  "tests/test_order.py::TestOrderScooter::test_order_scooter[order_data1-top]",
+  "tests/test_order.py::TestOrderScooter::test_order_scooter[order_data2-bottom]",
+  "tests/test_order.py::TestOrderScooter::test_scooter_logo_redirect",
+  "tests/test_order.py::TestOrderScooter::test_yandex_logo_redirect"
+]
