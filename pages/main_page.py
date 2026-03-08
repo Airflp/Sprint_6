@@ -13,10 +13,8 @@ class MainPage(BasePage):
 
     @allure.step("Принять cookies")
     def accept_cookies(self):
-        try:
-            self.click_element(MainPageLocators.COOKIE_BUTTON)
-        except:
-            pass
+        if self.is_element_visible(MainPageLocators.COOKIE_BUTTON):
+           self.click_element(MainPageLocators.COOKIE_BUTTON)
 
     @allure.step("Прокрутить до FAQ")
     def scroll_to_faq_section(self):
