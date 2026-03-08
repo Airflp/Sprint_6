@@ -2,7 +2,32 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators:
+
     COOKIE_BUTTON = (By.ID, "rcc-confirm-button")
+
+    FAQ_SECTION = (By.CLASS_NAME, "Home_FAQ__3uVm4")
+
+    FAQ_QUESTIONS = [
+        (By.ID, "accordion__heading-0"),
+        (By.ID, "accordion__heading-1"),
+        (By.ID, "accordion__heading-2"),
+        (By.ID, "accordion__heading-3"),
+        (By.ID, "accordion__heading-4"),
+        (By.ID, "accordion__heading-5"),
+        (By.ID, "accordion__heading-6"),
+        (By.ID, "accordion__heading-7"),
+    ]
+
+    FAQ_ANSWERS = [
+        (By.ID, "accordion__panel-0"),
+        (By.ID, "accordion__panel-1"),
+        (By.ID, "accordion__panel-2"),
+        (By.ID, "accordion__panel-3"),
+        (By.ID, "accordion__panel-4"),
+        (By.ID, "accordion__panel-5"),
+        (By.ID, "accordion__panel-6"),
+        (By.ID, "accordion__panel-7"),
+    ]
 
     ORDER_BUTTON_TOP = (
         By.XPATH,
@@ -14,20 +39,6 @@ class MainPageLocators:
         "//div[contains(@class,'Home_FinishButton')]//button[text()='Заказать']"
     )
 
-    FAQ_SECTION = (
-        By.XPATH,
-        "//div[contains(@class,'Home_FAQ')]"
-    )
+    SCOOTER_LOGO = (By.CLASS_NAME, "Header_LogoScooter__3lsAR")
 
-    YANDEX_LOGO = (
-        By.XPATH,
-        "//a[contains(@class,'Header_LogoYandex')]"
-    )
-
-    SCOOTER_LOGO = (
-        By.XPATH,
-        "//a[contains(@class,'Header_LogoScooter')]"
-    )
-
-    QUESTION_PREFIX = (By.ID, "accordion__heading-")
-    ANSWER_PREFIX = (By.ID, "accordion__panel-")
+    YANDEX_LOGO = (By.CLASS_NAME, "Header_LogoYandex__3TSOI")
